@@ -1,46 +1,31 @@
-# C_Codes
-Aprendendo C
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  C_Codes
+  <h1>Bem-vindo ao meu Repositório!</h1>
 
+  <h2>Sobre o Repositório (✨)</h2>
+  <p>Olá! Sou a <strong>Ayssa</strong>! Esse repositório é destinado aos exercícios de um livro de C. Aqui eu estou aprendendo diversos conceitos sobre essa linguagem!</p>
 
+  <h2>Menu de navegação (📂)</h2>
+  <ul>
+    <li><a href="./Basicos"><strong>Conceitos Básicos</strong></a></li>
+    <li><a href="./Condicional/"><strong>Estruturas Condicionais</strong></a></li>
+    <li><a href="./Loops/"><strong>Estruturas de Loop's</strong></a></li>
+    <li><a href="./Vetores/"><strong>Vetores</strong></a></li>
+    <li><a href="./Matrizes/"><strong>Matrizes</strong></a></li>
+  </ul>
 
-Só salvando:
-#include <stdio.h>
-#include <stdlib.h>
-void main() {
-    
-    // Definindo as variáveis:
-    int num_conta, cTotal=0 , cTotalNeg=0;
-    // num_conta: Número da conta
-    // cTotal: Total de clientes
-    // num_conta: Total de clientes negativados
-    float saldo, somatorio=0;
-    // saldo: saldo do cliente
-    // somatorio: saldo da agência
-    char nome[30];
-    // Criando uma variável nome de no máximo 30 caractéres
-    
-    // Recebendo os Dados (entrada = numconta,nome,saldo)
-    printf("Digite o numero da conta: (ou -999 para finalizar)\n");
-    scanf("%d", &num_conta);
-    // Esse "%d" significa que o scan receberá um inteiro e armazenará em conta
-    while (num_conta > 0 && cTotal < 10000) {
-        printf("Nome:");
-        scanf("%s", nome);
-        printf("Saldo:");
-        scanf("%f", &saldo);
-        somatorio += saldo;
-        cTotal++;
-        if (saldo <0){
-            cTotalNeg++;
-            printf("%d - %f - negativo \n", num_conta, saldo);
-        }
-        else{
-            printf("%d - %f - positivo \n", num_conta, saldo);
-        }
-        printf("Digite o numero da conta: (ou -999 para finalizar)\n");
-        scanf("%d", &num_conta);
-    }
-    printf("\n Total de clientes negativos: %d", cTotalNeg);
-    printf("\n Total de clientes da agência: %d", cTotal);
-    printf("\n Total do saldo da agência: %f", somatorio);
-}
+  <hr>
+  <h3>Entre em contato! (📞)</h3>
+  <ul>
+    <li>📧 <strong>Email</strong>: ayssa.contato@gmail.com</li>
+    <li>📱 <strong>Celular</strong>: (27) 99712-0282</li>
+    <li>🔗 <strong>LinkedIn</strong>: (https://www.linkedin.com/in/ayssa-hadassa-07a487289/)</li>
+  </ul>
+</body>
+</html>
